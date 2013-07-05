@@ -50,6 +50,13 @@ p {
     margin-bottom: 13px;
 }
 
+#menu.home #home,
+#menu.events #events,
+#menu.sermons #sermons
+{
+    color: black;
+}
+
 #menu ul
 {
     margin: 0;
@@ -66,7 +73,7 @@ p {
 {
     float: left;
     text-decoration: none;
-    color: #555;
+    color: #aaa;
     font-size: 20px;
     padding: 25px 40px 5px 0px;
     margin-top: 60px;
