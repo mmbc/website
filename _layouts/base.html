@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <title>MMBC - {{ page.title }}</title>
+    </head>
+    <body>
+        <div class = "main_container">
+            <div id = "logo">
+                <div id = "larger_logo_text">Martin's Mill</div><br/>
+                <div id = "smaller_logo_text">BAPTIST CHURCH</div>
+            </div>
+            <div id = "menu_container">
+                <div id = "menu">
+                    <ul>
+                        <li><a href="index.html" style = "color: #999;">HOME</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="sermons.html">SERMONS</a></li>
+                    </ul>
+                    <br style="clear:left"/>
+                </div>
+            </div>
+            <div id = "image_banner">
+                <img src = "seed.jpg" width="897px;" height="355px;"/>
+            </div>
+            {{ content }}
+            <div id = "copyright">&copy Martin's Mill Baptist Church, 2012</div>
+        </div>
+    </body>
+</html>
