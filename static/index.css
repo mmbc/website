@@ -99,7 +99,7 @@ p {
     text-align: center;
 }
 
-.paragraph_title {
+.paragraph_title, h1 {
     font-size: 28px;
     font-weight: lighter;
     padding-top: 37px;
