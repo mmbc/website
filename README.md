@@ -13,3 +13,5 @@ To make changes:
   
 You can also make simple changes directly from github,
 but you won't necessarily be able to test them before comitting.
+
+The URL for the github-hosted website is http://mmbc.github.io/website/.
